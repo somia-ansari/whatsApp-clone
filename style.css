@@ -1,0 +1,169 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #075e55;
+    width: 320px;
+    margin: 0;
+    background-color: #fefdff;
+}
+
+img {
+    height: 55px;
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.msg {
+    background-color: #ffffff;
+    display: flex;
+    border-bottom: 2px solid #f7f7f7;
+    padding: 10px 0;
+    color: #a8adb0;
+    width: 100%;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    color: #222222;
+}
+
+.msg-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+ul#chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #85aba9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #075e55;
+}
+
+#top ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 10px;
+}
+
+#top ul li {
+    color: #fefdff;
+    font-size: 1.2em;
+}
+
+#top ul li i {
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input#search {
+    background-color: transparent;
+    border: none;
+}
+
+nav li {
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav li:hover {
+    color: #fefefd;
+}
+
+nav li::before {
+    content: "";
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0px;
+    height: 2px;
+    background-color: #fefefd;
+}
+
+.msg:hover {
+    background-color: #e9ebeb;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav li:hover::before {
+    right: 0;
+    left: 0;
+}
+
+#active-chat {
+    color: #fefefd;
+}
+
+#float-box {
+    position: sticky;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1.7em;
+}
+
+#float-box i {
+    color: #fdffff;
+    background-color: #20c65a;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+}

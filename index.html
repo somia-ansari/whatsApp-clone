@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <title>WhatsApp Clone</title>
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <ul>
+                <li>WhatsApp</li>
+                <li><input type="text" id="search">
+                    <i class="fas fa-search"></i>
+                </li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+            </ul>
+        </div>
+        <nav>
+            <ul>
+                <a>
+                    <li><i class="fas fa-camera"></i></li>
+                </a>
+                <a href="#chat" id="active-chat">
+                    <li>CHATS</li>
+                </a>
+                <a>
+                    <li>STATUS</li>
+                </a>
+                <a>
+                    <li>CALLS</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ul id="chat"></ul>
+        <div id="float-box"><i class="fas fa-comment-alt"></i></div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
